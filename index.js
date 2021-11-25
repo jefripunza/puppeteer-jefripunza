@@ -123,6 +123,6 @@ app.get('/hargaemas', async (req, res, next) => {
 
 app.get('*', async (req, res, next) => {
     return res.status(200).json({
-        message: "Welcome cox",
+        message: "Welcome cox mantap",
     });
 });
